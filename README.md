@@ -20,9 +20,9 @@ Scan performed: nmap -sS 192.168.1.0/24
 5555 : ADB (Android Debug Brigde) or custom services  
 
 ## Security Risks due to Open Ports
-Port 53: if DNS is misconfigured or exteranlly exposed, it can be abused for DNS amplification DDoS.  
+Port 53: if DNS is misconfigured or externally exposed, it can be abused for DNS amplification DDoS.  
 Port 80: Unencrypted - vulnerable to MITM, sniffing, or old vulnerable web interfaces.  
 Port 5555: if ADB, Potential High risk - allows remote shell access to Android-based devices.  
-Port 22: Potential Brute-force attack risk, harden with key-based auth, disable root login.  
+Port 22: Potential Brute-force attack risk, should be hardened with key-based auth, disable root login.  
 
 ### Scan Result Screenshots are added to the repository. 
