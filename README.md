@@ -1,4 +1,4 @@
-# Elavate Labs - Task 01 
+# Elevate Labs - Task 01 
 
 ## OBJECTIVE
 Perform port scan of home network - find connected hosts and open ports.  
